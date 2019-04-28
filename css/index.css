@@ -1,0 +1,54 @@
+
+.banner-wrapper{width: 100%;overflow: hidden;clear: both;}
+.banner-wrapper .banner{position: relative;width: 100%;overflow: hidden;}
+.banner-wrapper .banner .news-info{position: absolute;width: 100%;height: 50px;bottom: 0;background: rgba(0, 0, 0, .3);}
+.banner-wrapper .banner .news-info .news-container{width: 100%;padding-left: 63px;height: 50px;line-height: 50px;}
+.banner-wrapper .banner .news-info .news-container h1{float: left;height: 50px;margin: 0;line-height: 50px;color: #fff;font-size: 16px;
+font-weight: normal;}
+.carousel-indicators{bottom: 20px;}
+.banner-wrapper .banner .news-info .news-container ul{float: left; height: 50px; overflow: hidden;margin: 0;}
+.banner-wrapper .banner .news-info .news-container ul li{height: 50px;line-height: 50px;}
+.banner-wrapper .banner .news-info .news-container ul li a{display: block;width: 100%;color: #fff;font-size: 16px;}
+.content{width: 100%;overflow: hidden;clear: both;}
+.content .server_pro{position: relative;width: 100%;clear: both;background: url("../images/triangle_bg.jpg") no-repeat;background-size: 130% 100%;background-position-x: -2.2rem;}
+.content .server_pro:after{display: block;content: "";position: absolute;bottom: -1rem;background: #2ebaef;
+height: 3rem;width: 19.2rem;z-index: 9;}
+.content .pro-intro{display: flex;display: -webkit-flex;display: -moz-flex;justify-content: space-between;flex-wrap: wrap;}
+.content .pro-intro .pro-intro-item{width: 31.25%;padding: .3rem 0 .65rem;text-align: center;border: 1px solid #eee;}
+.content .pro-intro .pro-intro-item h1{font-size: 18px;margin: .32rem 0 0 0;font-weight: normal;color: rgb(33, 33, 33);line-height: 26px;}
+.content .pro-intro .pro-intro-item .text p{font-size: 14px;color: #666;line-height: 26px;margin-bottom: 0;}
+.content .pro-intro .pro-intro-item .text p span{color: rgb(255, 101, 56);font-size: 24px;}
+.content .introduce{width: 100%;overflow: hidden;}
+.content .introduce .int-item{display: flex;display: -webkit-flex;display: -moz-flex;align-items: center;}
+.content .introduce .solution{padding-top: 2rem;}
+.content .introduce .solution .sol-img{margin-left: 1.4rem;}
+.content .introduce .server-tg{position: relative;padding-top: 4.15rem;z-index: 10;}
+.content .introduce .int-item .sol-text{width: 397px;overflow: hidden;}
+.content .introduce .int-item .sol-text h1{margin-bottom: .3rem;color: #212121;font-size: 30px;}
+.content .introduce .int-item .sol-text p{color: #878787;font-size: 14px;text-align: justify;}
+.content .btn_more{display: block;margin-top: 1rem;width: 167px;height: 48px;border-radius: 26px;text-align: center;line-height: 48px;
+background: #2ebbee;font-size: 14px;color: #fff;}
+.content .btn_more a{display: block;color: #fff;}
+.content .introduce .int-item.server-tg .sol-text{margin-left: 1.4rem;}
+.content .introduce .int-item.server-tg .sol-text h1,
+.content .introduce .int-item.server-tg .sol-text p{color: #fff;}
+.content .introduce .int-item.server-tg .btn_more{background: #fff;}
+.content .introduce .int-item.server-tg .btn_more a{color: #2ebbee;}
+.content .about_us{width: 100%;margin-top: 1rem;overflow: hidden;}
+.content .about_us .title p:after{display: none;}
+.content .adv{display: flex;display: -webkit-flex;display: -moz-flex;justify-content: space-around;
+flex-wrap: wrap;}
+.content .adv .adv-item{width: 24%;text-align: center;}
+.content .adv .adv-item .text h1{margin: .31rem 0 .2rem;font-size: 14px;color: #212121;color: rgb(33, 33, 33);}
+.content .adv .adv-item .text p{color: #8f8f8f;font-size: 12px;line-height: 20px;}
+.content .about_us .btn_more{margin: 1rem auto 1.46rem;}
+.content .about_us .show_times{width: 100%;padding: 1.05rem 0 1.24rem;overflow: hidden;background: url("../images/about_us_bg.jpg") no-repeat;background-size: 100% 100%;}
+.content .about_us .times-wrapper{display: flex;display: -moz-flex;display: -webkit-flex;width: 100%;flex-wrap: wrap;
+justify-content: space-around;}
+.content .about_us .times-wrapper .times{width: 22%;padding: 10px 0 .58rem;background: #000;text-align: center;}
+.content .about_us .times-wrapper .times h1{font-size: 73px;color: #fff;}
+.content .about_us .times-wrapper .times p{font-size: 16px;color: #fff;}
+.content .customer-reviews{width: 100%;overflow: hidden;text-align: center}
+.content .customer-reviews .title p:after{display: none;}
+.content .customer-reviews .img{margin-bottom: 1.4rem;}
+

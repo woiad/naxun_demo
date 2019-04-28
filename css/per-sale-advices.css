@@ -1,0 +1,19 @@
+.content{width: 100%;overflow: hidden;clear: both;}
+.content .title{padding: 0;border-bottom: 1px solid #e5e5e5;}
+.content .title h1{font-size: 22px;color: #0071bc;}
+.content .title p{color: #333;font-size: 16px;}
+.content .title p:after{display: none;}
+.content .pre-sales-advices{width: 100%;padding: 4% 15px;overflow: hidden;clear: both;}
+.content .pre-sales-advices ul{width: 100%;overflow: hidden;padding: 3% 0;}
+.content .pre-sales-advices li{float: left;width: 20%;padding: 0.7%;}
+.content .pre-sales-advices li a{display: block;padding: 10px;font-size: 16px;color: #333;border: 1px solid #e5e5e5;}
+.content .pre-sales-advices li a i{display: inline-block;width: 26px;height: 31px;margin-right: 13px;background: url("../images/kfzx_qq_ico-01.png") no-repeat;
+background-size: 100% 100%;vertical-align: middle;}
+.content .pre-sales-advices li a:hover{box-shadow: 0 0 12px 0 rgba(0, 145, 63, 0.2);}
+.content .after-sales-service{width: 100%;clear: both;overflow: hidden;}
+.content .after-sales-service ul li{width: 33.33%;padding: 1%}
+.content .after-sales-service ul li a{display: block;padding: 5% 10%;border: 1px solid #e5e5e5;font-size: 16px;color: #333;}
+.content .after-sales-service ul li a i{display: inline-block;width: 60px;height: 60px;margin-right: 8%;}
+.content .after-sales-service ul li:nth-child(1) a i{background: url("../images/kfzx_shfw_ico-01.png");}
+.content .after-sales-service ul li:nth-child(2) a i{background: url("../images/kfzx_shfw_ico-02.png");}
+.content .after-sales-service ul li:last-child a i{background: url("../images/kfzx_shfw_ico-03.png");}

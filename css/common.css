@@ -1,0 +1,97 @@
+/****************** 头部公用 ********************/
+.header{width: 100%;height: 50px;background-color: rgba(43, 43, 43, 1);z-index: 10;}
+.header .logo{float:left;width: 20%;height: 50px;line-height: 39px;text-align: center;}
+.header .logo a{display: block;width: 100%;height: 50px;}
+.header .logo img{max-width: 50%;}
+.header .nav-wrapper{position: relative;width: 67%;float: left;height: 50px;}
+.header .nav{width: 100%;height: 50px;}
+.header .nav-wrapper ul{width: 100%;margin: 0;}
+.header .nav-wrapper li{position: relative;float: left;width: 100px;height: 50px;margin: 0 10px;line-height: 50px;text-align: center;cursor: pointer;}
+.header .nav-wrapper li a{display: block;color: #fff;font-size: 16px;cursor: pointer;}
+.header .nav-wrapper li a span{display: none;float: right;margin: 10px 10px;font-size: 18px;transition: transform .35s ease; -moz-transition: transform .35s ease;
+-webkit-transition: transform .35s ease;}
+.header .nav-wrapper li.active,
+.header .nav-wrapper li:hover{background: #0071bc}
+.header .nav-wrapper li:hover .pro-menu{display: block;}
+.header .nav-wrapper li .pro-menu{display: none; position: fixed;left: 0;padding: 24px 0;width: 100%;background: #192027;opacity: 0.97;z-index: 30;
+transition: diplay .25s ease;-webkit-transition: display .25s ease;-moz-transition: display .25s ease;}
+.header .nav-wrapper li .pro-menu .mg{text-align: left;}
+.header .nav-wrapper li .pro-menu dl{width: 23%;padding: 0 32px 0 16px; display: inline-block;vertical-align: top;}
+.header .nav-wrapper li .pro-menu dt{font-size: 14px;color: #fff;font-weight: 400;line-height: 32px;border-bottom: #fff solid 1px;
+border-bottom-color: rgba(255, 255, 255, .1);}
+.header .nav-wrapper li .pro-menu dl dd a{font-size: 14px;color: #9d9d9d;transition: color .35s ease;-moz-transition: color .35s ease;
+-webkit-transition: color .35s ease;}
+.header .nav-wrapper li .pro-menu dl dd:hover a{color: #2e87de;}
+.header .nav-btn{position: absolute;width: 40px;height: 40px;right: 25px;top: 7px;}
+.header .nav-btn a.deplay-navigation{position: relative;display: none;width: 100%;height: 40px}
+.header .nav-btn a.deplay-navigation:after,
+.header .nav-btn a.deplay-navigation:before{position: absolute;content: "";display: block;width: 24px;height: 2px;
+    background: #0071bc;left: 8px;transition: all .3s;-webkit-transition: all .3s;-moz-transition: all .3s;}
+.header .nav-btn a.deplay-navigation:before{top: 13px;}
+.header .nav-btn a.deplay-navigation span{position: absolute;top: 19px;left: 8px;width: 24px;height: 2px;background: #0071bc;
+    opacity: 1;}
+.header .nav-btn a.deplay-navigation:after{bottom: 13px;}
+.header .nav-btn a.expand:after{bottom: 20px;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(45deg);}
+.header .nav-btn a.expand:before{top: 18px;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}
+.header .nav-btn a.expand span{top: 18px;transform: rotate(90deg);-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);
+    opacity: 0;}
+
+
+/****************** title公用 ********************/
+.content .title{width: 100%;overflow: hidden;clear: both;padding: 1.32rem 15px 1.23rem;text-align: center;}
+.content .title h1{margin-bottom: 10px;font-size: 30px;color: #212121;}
+.content .title p{position: relative;font-size: 16px;color: #666;line-height: 34px;}
+.content .title p:after{position: absolute;display: block;width: 40px;left: 50%;margin-left: -25px;bottom: -14px;content: '';height: 1px;border-top: 1px solid rgb(0, 160, 233);}
+
+
+/******************* about_banner ****************/
+.content .ab_banner{width: 100%;position: relative;overflow: hidden;}
+.content .ab_banner h1{position: absolute;top: 43%;color: #fff;font-size: 22px;}
+.content .ab_banner .about_nav{width: 100%;position: absolute;bottom: 0;height: 60px;background: rgba(0, 0, 0, 0.5);}
+.content .ab_banner .about_nav ul li{float: left;height: 60px;}
+.content .ab_banner .about_nav ul li.active,
+.content .ab_banner .about_nav ul li:hover{background: #007bff;}
+.content .ab_banner .about_nav ul li a{display: block;height: 60px;line-height: 60px;padding: 0 .2rem;font-size: 16px;color: #fff;}
+
+
+
+/******************* about_nav ****************/
+.content .pay-nav{margin-top: 20px;width: 100%;height: 46px;border-bottom: 1px solid rgb(228, 228, 228)}
+.content .pay-nav li{float: right;margin-left: 4%;height: 46px;border-bottom: 1px solid transparent;transition: all .25s linear;
+    -moz-transition: all .25s linear;-webkit-transition: all .25s linear;}
+.content .pay-nav li a{display: block;height: 46px;line-height: 46px;padding: 0 .2rem;color: #333;font-size: 16px;}
+.content .pay-nav li.active,
+.content .pay-nav li:hover{border-bottom-color: #007bff;}
+.content .pay-nav li.active a,
+.content .pay-nav li:hover a{color: #007bff;}
+
+
+/****************** 尾部公用 ********************/
+.footer{width: 100%;padding: .95rem 0 0;overflow: hidden;clear: both;background: url("../images/footer_bg.jpg") no-repeat;background-size: 100% 100%;}
+.footer .footer-wrapper{width: 86%;margin: 0 auto;padding: .5rem 0 0;}
+.footer .footer-wrapper .footer-nav{display: flex;display: -moz-flex;display: -webkit-flex;justify-content: space-between;}
+.footer .footer-wrapper .footer-nav .footer-nav-left dl{float: left;margin: 0 1.7rem .55rem 0;width: 24%;}
+.footer .footer-wrapper .footer-nav .footer-nav-left dl:last-child{margin-right: 0;}
+.footer .footer-wrapper .footer-nav .footer-nav-left dl dt{position: relative;margin-bottom: 30px;font-size: 16px;color: #fff;}
+.footer .footer-wrapper .footer-nav .footer-nav-left dl dt:after{position: absolute;content: "";display: block;width: 32px;bottom: -12px;border-top: 1px solid #fff;}
+.footer .footer-wrapper .footer-nav .footer-nav-left dl dd{margin: 20px 0 0 0;}
+.footer .footer-wrapper .footer-nav .footer-nav-left dl dd p {font-size: 14px;color: #fff;font-weight: normal;}
+.footer .footer-wrapper .footer-nav .footer-nav-left dl dd p span{padding-right: 10px;}
+.footer .footer-wrapper .footer-nav .footer-nav-right .img-code{width: 2.83rem;height: 2.7rem;border: 2px solid #fff;border-radius: 10px;}
+.footer .footer-wrapper .fried-links{margin-top: 20px;overflow: hidden;}
+.footer .footer-wrapper .fried-links p{margin-bottom: 10px;color: #fff;font-size: 18px;}
+.footer .footer-wrapper .fried-links .links a{display: block;float: left;margin-right: 17px;font-size: 18px;color: #fff;}
+.footer .footer-wrapper .copyright{width: 100%;margin-top: .5rem;border-top: 1px solid #fff;overflow: hidden;clear: both;}
+.footer .footer-wrapper .copyright p{float: left;padding: 15px 0;margin-bottom: 0;font-size: 14px;color: #fff;}
+.footer .footer-wrapper .copyright p:last-child{float: right;}
+.loading{display: block;position: fixed;top: 0;left: 0;bottom: 0;right: 0;z-index: 100;background: #fff;text-align: center;}
+.loading img{position: relative;transform: translateY(-50%);top: 50%;}
+
+/****************** page *************************/
+.page{width: 100%;overflow: hidden;clear: both;text-align: center;}
+.page ul{display: inline-block;}
+.page ul li{margin-top: 10px;float: left;border: 1px solid rgba(199, 198, 199);margin-left: 10px;}
+.page ul li a{display: block;padding: 5px 10px;font-size: 14px;color: #333;}
+.page ul li.active a,
+.page ul li:hover a{color: #fff;background: #323232;}

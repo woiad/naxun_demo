@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none}
+html{font-size: 50px;}
+body{font-family: Helvetica Neue, Hiragino Sans GB, Microsoft Yahei, WenQuanYi Micro Hei, sans-serif}
+ul,
+li,
+dl,
+ol,
+dd{
+    list-style: none;
+    margin-bottom: 0
+}
+a:visited,
+a:hover{text-decoration: none;}
+img{max-width: 100%;}
+.mg{max-width: 1200px;margin: 0 auto;}
+h1, h2,h3.h4,h5,p,p1{margin-bottom: 0;}

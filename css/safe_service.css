@@ -1,0 +1,36 @@
+.safe-list{width: 100%;overflow: hidden;clear: both;padding: .5rem 0;}
+.safe-list .safe-item{display: flex;display: -moz-flex;display: -webkit-flex;padding: .5rem .4rem;border-bottom: 1px solid #e5e5e5;
+flex-wrap: wrap;}
+.safe-list .service-intro{border: 1px solid #e6e6e6;background: url("../images/network_img/wlaq_top_bg.jpg") no-repeat;}
+.safe-list .safe-item .text{width: 60%;}
+.safe-list .safe-item .text h1{padding-bottom: .25rem;font-size: 30px;color: #000;line-height: 48px;}
+.safe-list .safe-item .text h1 span{position: relative;padding-bottom: .2rem;}
+.safe-list .safe-item .text h1 span:after{position: absolute;content: "";left: 0;bottom: 0;height: 2px;min-width: 90px;width: .8rem;background: #ccc;
+transition: all .5s linear;-webkit-transition: all .5s linear;-moz-transition: all .5s linear}
+.safe-list .safe-item .text h1:hover span:after{width: 98%;background: #4079c8;}
+.safe-list .service-intro .text h1{color: #4079c8;padding-bottom: 0;}
+.safe-list .safe-item .text p{padding: 2% 0 4% 0;font-size: 16px;color: #666;}
+.safe-list .safe-item .text .intro-btn{width: 128px;height: 38px;}
+.safe-list .safe-item .text .intro-btn a{position: relative;display: block;width: 128px;height: 38px;line-height: 38px;text-align: center;
+color: #fff;font-size: 14px;transition: all .8s ease 0s;-moz-transition: all .8s ease 0s;
+-webkit-transition: all .8s ease 0s;border: 1px solid #4079c7;background: #4079c7;}
+.safe-list .safe-item .img{width: 40%;}
+.safe-list .safe-item .text .intro-btn a:hover{color: #4079c7;background: #fff;}
+.safe-list .safe-item .text .intro-btn a:hover:after{transform: scaleX(1);-webkit-transform: scaleX(1);-moz-transform: scaleX(1);
+transform-origin: left top;-webkit-transform-origin: left top;-moz-transform-origin: left top;}
+.safe-list .split{margin: 3% 0;width: 100%;overflow: hidden;clear: both;}
+.safe-list .split h1{position: relative;text-align: center;font-size: 20px;color: #4079c7;padding: 0 15px;line-height: 32px;}
+.safe-list .split h1:after,
+.safe-list .split h1:before{position: absolute;content: '';display: block;top: 50%;margin-top: -0.5px;height: 1px;width: 45%;border-top: 1px solid #e5e5e5;}
+.safe-list .split h1:before{right: 0;}
+.safe-list .split h1:after{left: 0;}
+.safe-list .line{width: 100%;height: 1px;}
+.safe-list .pro-adv-list{width: 100%;display: flex;display:-moz-flex;display: -webkit-flex;flex-wrap: wrap;justify-content: space-between;}
+.safe-list .pro-adv-list .pro-adv-item{width: 49%;margin: 1% 0;padding: .3rem .3rem .45rem;border: 1px solid #e6e6e6;cursor: pointer;transition: all .4s ease;
+-webkit-transition: all .4s ease;-moz-transition: all .4s ease;}
+.safe-list .pro-adv-list .pro-adv-item:hover{box-shadow: 0 0 12px 0 rgba(0,145,63,.2);}
+.safe-list .pro-adv-list .pro-adv-item .img{width: 21%;float: left;}
+.safe-list .pro-adv-list .pro-adv-item .img img{display: block;}
+.safe-list .pro-adv-list .pro-adv-item .text{float: left;width: 79%;padding-left: 2.5%;}
+.safe-list .pro-adv-list .pro-adv-item h1{font-size: 22px;color: #333;}
+.safe-list .pro-adv-list .pro-adv-item p{padding-top: 3%;font-size: 14px;color: #666;text-align: justify;}

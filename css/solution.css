@@ -1,0 +1,13 @@
+.banner{width: 100%;overflow: hidden;clear: both;background: #3f4ab5;}
+.content .program-list{margin-bottom: .4rem;width: 100%;overflow: hidden;clear: both;}
+.content .program-list ul{display: flex;display: -moz-flex;display: -webkit-flex;width: 100%;overflow: hidden;
+justify-content: space-between;padding: 0 15px;}
+.content .program-list li p{font-size: 16px;color: #333;}
+.content .solution-wrapper{padding: .65rem 15px;width: 100%;overflow: hidden;background: #f4f7fb;}
+.content .solution-wrapper .solution-item{display: flex;display: -moz-flex;display: -moz-flex;margin-bottom: 1.45rem;justify-content: space-between;
+flex-wrap: wrap;}
+.content .solution-wrapper .solution-item .img{width: 45%;}
+.content .solution-wrapper .solution-item .img img{box-shadow: -2px 5px 10px rgba(0, 0, 0, .5);}
+.content .solution-wrapper .solution-item .text{width: 38%;}
+.content .solution-wrapper .solution-item .text h1{margin: 15px 0;font-size: 24px;color: #333;}
+.content .solution-wrapper .solution-item .text p{font-size: 14px;color: #535259;line-height: 2;}
